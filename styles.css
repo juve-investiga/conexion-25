@@ -279,7 +279,8 @@ header #mis-conexion div {
 .video-player::before,
 .video-player-v::before {
   content: "";
-  background-image: url(https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2022/05/unciencia_hsprt_v7.svg);
+  /*background-image: url(https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2022/05/unciencia_hsprt_v7.svg);*/
+  background-image: url("./img/icons.svg");
   width: 70px;
   height: 70px;
   background-position-y: -70px;
@@ -300,7 +301,8 @@ header #mis-conexion div {
   z-index: 2;
   width: 70px;
   height: 70px;
-  background-image: url(https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2022/05/unciencia_hsprt_v7.svg);
+  /*background-image: url(https://unciencia.unc.edu.ar/wp-content/blogs.dir/31/files/sites/4/2022/05/unciencia_hsprt_v7.svg);*/
+  background-image: url("./img/icons.svg");
   background-size: cover;
   background-position-y: -140px;
   -webkit-touch-callout: none;
