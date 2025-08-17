@@ -18,7 +18,7 @@ html { height: 100%; overflow-y: scroll; scrollbar-width: thin; scroll-behavior:
 /*::-webkit-scrollbar-track { background: #fff }*/
 
 body {
-  background-image:url(img/texturetastic_gray.png);
+  background-image:url(img/texturetastic_gray.webp);
   background-color: var(--hueso);
   color:var(--txt);
   font:1.125rem/1.6em "Playfair Display", serif;
