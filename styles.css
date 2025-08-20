@@ -400,6 +400,69 @@ footer .mis-footer-rrss a { padding: 0 15px; }
 footer .mis-footer-rrss img { width: 50px; }
 
 
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+////// Notas ////////////////////////////////////////////////////////////////////////////////////
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+.mis-articulo-divulgacion .mis-articulo-header { background: linear-gradient(to bottom, var(--damasco) 0 58%, var(--txt) 0 100%); }
+.mis-articulo-divulgacion .mis-articulo-header a { display: block; font-size: 2.5rem; }
+
+.mis-articulo-divulgacion .mis-articulo-header div { max-width: 680px; margin: 0 auto; padding: 0 20px;  }
+.mis-articulo-divulgacion .mis-articulo-header div:nth-child(1) { font-weight: 900; padding: 20px 20px 30px; font-variant-numeric: lining-nums; }
+
+.mis-articulo-divulgacion .mis-articulo-header div:nth-child(2) {
+  font-size: 1.1rem;
+  padding: 0 20px 10px;
+  color: var(--hueso);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mis-articulo-divulgacion .mis-articulo-imagen img {
+  display: block;
+  max-width: 1200px;
+  margin: 1px auto 0;
+  box-shadow: 0 0 20px -8px black;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.mis-articulo-divulgacion h1 { text-align: center; margin:2rem auto 3rem; font-size: 2.5rem; font-weight: 900; }
+.mis-articulo-divulgacion p:first-of-type { font-style: italic; margin: 0 auto 2rem; }
+
+.mis-articulo-divulgacion .mis-dot {
+  width: 8px;
+  display: inline-block;
+  background: var(--damasco);
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+  border: 2px solid;
+  box-shadow: 0 0 0 3px var(--damasco), 0 0 0 5px var(--txt);
+  opacity: 0.8;
+}
+
+
+/*.mis-articulo-divulgacion p:first-of-type + p { color: red; }*/
+.mis-articulo-divulgacion p:nth-of-type(2) {
+  font-weight: 500;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  line-height: 1.6;
+}
+
+.mis-articulo-divulgacion p a {
+  color: var(--damasco);
+  text-decoration-color: var(--damasco);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 6px;
+  font-weight: 600;
+  text-shadow: 0 0 0 #532d04;
+  font-size: 1.125rem;
+}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Media queries ////////////////////////////////////////////////////////////////////////////
