@@ -597,5 +597,12 @@ footer .mis-footer-rrss img { width: 50px; }
   #mis-sobre-el-proyecto h2 { margin: 0 2rem 0 auto; text-align: right; }
 }
 
+/*///////////  1900  //////////////////////////////////////////////////////////*/
+
+@media (min-width:1900px) {
+  #mis-produccion-grafica article { display: grid; grid-template-columns: 2fr 1fr; justify-content: center; grid-gap: 30px; padding: 20px; }
+  #mis-produccion-grafica .mis-folletos-thumbnails { grid-template-columns: repeat(auto-fit, minmax(135px, 165px)); margin-top: 0; }  
+}
+
 
 
