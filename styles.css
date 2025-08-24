@@ -365,7 +365,7 @@ header #mis-conexion div {
 ////// Producción gráfica ///////////////////////////////////////////////////////////////////////
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
-#mis-produccion-grafica { padding: 2rem 20px; }
+#mis-produccion-grafica { padding: 2rem 20px; max-width: 1920px; margin-inline: auto; }
 #mis-produccion-grafica h2.split-back { max-width: 385px; background: linear-gradient(180deg, var(--txt) 0 48%, var(--damasco) 0 100%); }
 #mis-produccion-grafica p { padding: 0; }
 #mis-produccion-grafica article {
