@@ -2,6 +2,7 @@
   --txt: #0a0a0a;
   --damasco: #ff9358;
   --damasco: #ff7c35;
+  --dark-damasco: #9b3700;
   --hueso: #fff9ed;
 }
 
@@ -64,7 +65,7 @@ p:empty { display:none; }
 
 .svg-hidden { display: none; height:0; }
 
-hr { border-bottom: 9px; max-width: 680px; margin: 0 auto; }
+hr { max-width: 680px; margin: 0 auto; border-style: dotted; border-width: 0 0 3px 0; border-color: var(--txt); }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Header ///////////////////////////////////////////////////////////////////////////////////
@@ -518,7 +519,7 @@ footer .mis-footer-rrss img { width: 50px; }
 
 
 .mis-articulo-divulgacion h1 { text-align: center; margin: 2rem auto 3rem; font-size: 2.5rem; font-weight: 900; max-width: 1024px; line-height: 1.25; }
-.mis-articulo-divulgacion h2 { font-size: 2rem; text-shadow: 1px 2px 2px #393939; }
+.mis-articulo-divulgacion h2 { font-size: 2rem; text-shadow: 1px 2px 2px #593d1f; }
 .mis-articulo-divulgacion p:first-of-type { font-style: italic; margin: 0 auto 2rem; }
 
 .mis-articulo-divulgacion .mis-dot {
@@ -565,7 +566,17 @@ footer .mis-footer-rrss img { width: 50px; }
 .mis-articulo-divulgacion .epigraph, .mis-articulo-divulgacion .epigraph a { font-size: 0.9rem; text-decoration: none; }
 .mis-articulo-divulgacion .mis-citas, .mis-articulo-divulgacion .mis-bibliografia { font-size: 1rem; text-decoration: none; margin-bottom: 2rem; }
 
-.mis-articulo-divulgacion .mis-citas h2, .mis-articulo-divulgacion .mis-bibliografia h2 { color: var(--txt); text-shadow: none; font-size: 1.65rem; margin: 1rem auto 0; }
+.mis-articulo-divulgacion .mis-citas h2, .mis-articulo-divulgacion .mis-bibliografia h2 {
+  color: var(--txt);
+  text-shadow: none;
+  font-size: 1.65rem;
+  max-width: 680px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: left;
+  width: unset;
+}
+
 .mis-articulo-divulgacion .mis-citas ol, .mis-articulo-divulgacion .mis-bibliografia ul { margin: 0 auto; } 
 
 .mis-articulo-divulgacion .mis-bibliografia li::marker { content: '◫'; font-size: 20px; }
