@@ -64,6 +64,8 @@ p:empty { display:none; }
 
 .svg-hidden { display: none; height:0; }
 
+hr { border-bottom: 9px; max-width: 680px; margin: 0 auto; }
+
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Header ///////////////////////////////////////////////////////////////////////////////////
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -515,7 +517,8 @@ footer .mis-footer-rrss img { width: 50px; }
 }
 
 
-.mis-articulo-divulgacion h1 { text-align: center; margin:2rem auto 3rem; font-size: 2.5rem; font-weight: 900; }
+.mis-articulo-divulgacion h1 { text-align: center; margin: 2rem auto 3rem; font-size: 2.5rem; font-weight: 900; max-width: 1024px; line-height: 1.25; }
+.mis-articulo-divulgacion h2 { font-size: 2rem; text-shadow: 1px 2px 2px #393939; }
 .mis-articulo-divulgacion p:first-of-type { font-style: italic; margin: 0 auto 2rem; }
 
 .mis-articulo-divulgacion .mis-dot {
@@ -551,6 +554,21 @@ footer .mis-footer-rrss img { width: 50px; }
   text-shadow: 0 0 0 #532d04;
   font-size: 1.125rem;
 }
+
+.mis-articulo-divulgacion ul, .mis-articulo-divulgacion ol { max-width: 680px; list-style-type: none; margin: 1.65rem auto; }
+.mis-articulo-divulgacion li { padding: 10px 0 10px 15px; line-height: 1.45; }
+.mis-articulo-divulgacion li + li { border-top: 1px dotted;}
+.mis-articulo-divulgacion ul li::marker { color: var(--damasco); content: '◉'; font-size: 20px; }
+.mis-articulo-divulgacion ol { list-style-type: decimal-leading-zero; }
+.mis-articulo-divulgacion ol li::marker { color: var(--damasco); font-size: 1.15rem; font-weight: 900; }
+
+.mis-articulo-divulgacion .epigraph, .mis-articulo-divulgacion .epigraph a { font-size: 0.9rem; text-decoration: none; }
+.mis-articulo-divulgacion .mis-citas, .mis-articulo-divulgacion .mis-bibliografia { font-size: 1rem; text-decoration: none; margin-bottom: 2rem; }
+
+.mis-articulo-divulgacion .mis-citas h2, .mis-articulo-divulgacion .mis-bibliografia h2 { color: var(--txt); text-shadow: none; font-size: 1.65rem; margin: 1rem auto 0; }
+.mis-articulo-divulgacion .mis-citas ol, .mis-articulo-divulgacion .mis-bibliografia ul { margin: 0 auto; } 
+
+.mis-articulo-divulgacion .mis-bibliografia li::marker { content: '◫'; font-size: 20px; }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Media queries ////////////////////////////////////////////////////////////////////////////
