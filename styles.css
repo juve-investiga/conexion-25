@@ -4,7 +4,7 @@
   --damasco: #ff7c35;
   --dark-damasco: #9b3700;
   --hueso: #fff9ed;
-}
+} 
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// CSS base /////////////////////////////////////////////////////////////////////////////////
@@ -113,6 +113,8 @@ header #mis-conexion div {
   user-select: none;
 }
 
+header #mis-conexion div span { display: block; }
+
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Equipo docente ///////////////////////////////////////////////////////////////////////////
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -150,7 +152,7 @@ header #mis-conexion div {
   border-bottom: 4px solid;
   border-image: linear-gradient(158deg, var(--damasco) 0 90%, var(--txt) 0 100%) 1;
 }
-#mis-equipo-docente ul { list-style: none; font-size: 16px;  }
+#mis-equipo-docente ul { list-style: none; font-size: 15px; font-weight: 500; line-height: 1.5; }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ////// Sobre el proyecto ////////////////////////////////////////////////////////////////////////
@@ -392,16 +394,14 @@ border: 1px solid rgba(0,0,0,0.4);
   /*left: 0;*/
   /*right: 0;*/
   display: flex;
-  align-items: center;
+  justify-content: center;
   padding: 10px;
   background: var(--txt);
   color: white;
-  gap: 10px;
+  gap: 20px;
   font-variant-numeric: lining-nums;
   font-size: 1.25rem;
   font-weight: 300;
-  display: flex;
-  flex-direction: column;
 }
 
 #pdf-container {
@@ -422,7 +422,7 @@ border: 1px solid rgba(0,0,0,0.4);
   max-width: 100%;
 }
 
-.mis-folleto-download-button {
+/*.mis-folleto-download-button {
   background: var(--hueso);
   color: var(--txt);
   font-family: inherit;
@@ -436,6 +436,14 @@ border: 1px solid rgba(0,0,0,0.4);
   font-size: 1.15rem;
   border-radius: 15px 0 15px 0;
   margin: 10px 0;
+}*/
+
+.mis-folleto-download-button {
+  background: var(--hueso);
+  color: var(--txt);
+  padding: 6px 6px 6px 17px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .mis-folleto-download-button a { display: flex; justify-content: center; }
@@ -590,6 +598,8 @@ footer .mis-footer-rrss img { width: 50px; }
 
 @media (min-width:600px) {
   header h1 { grid-area: 1 / 1 / 3 / 3; }
+  header #mis-conexion div span { display: inline-block; line-height: 1.2; }
+  header #mis-conexion div span + span { border-left: 2px solid var(--damasco); margin-left: 10px; padding-left: 10px; }
   #mis-produccion-grafica h2.split-back { max-width: 500px; background: linear-gradient(110deg, var(--txt) 0 54%, var(--damasco) 0 100%); }
   .mis-lrt760 { margin: 0 auto; }
   #pdf-container { height: 380px; }  
