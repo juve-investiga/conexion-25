@@ -360,6 +360,7 @@ header #mis-conexion div span { display: block; }
 #mis-produccion-audiovisual .mis-video-wrapper .video-player-h { max-width: 300px !important; }
 
 #mis-produccion-audiovisual .mis-video-wrapper h4 { padding: 10px; text-align: center; font-size: 20px; }
+#mis-produccion-audiovisual .mis-video-wrapper h3 { padding: 10px; text-align: center; font-size: 20px; }
 
 #mis-produccion-audiovisual .mis-video-wrapper.mis-view-760 { display: none; }
 
@@ -441,7 +442,7 @@ border: 1px solid rgba(0,0,0,0.4);
 .mis-folleto-download-button {
   background: var(--hueso);
   color: var(--txt);
-  padding: 6px 6px 6px 17px;
+  padding: 6px 17px 6px 17px;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -585,6 +586,8 @@ footer .mis-footer-rrss img { width: 50px; }
   width: unset;
 }
 
+.mis-articulo-divulgacion .mis-citas a, .mis-articulo-divulgacion .mis-bibliografia a { color: var(--dark-damasco); }
+
 .mis-articulo-divulgacion .mis-citas ol, .mis-articulo-divulgacion .mis-bibliografia ul { margin: 0 auto; } 
 
 .mis-articulo-divulgacion .mis-bibliografia li::marker { content: '◫'; font-size: 20px; }
@@ -594,7 +597,7 @@ footer .mis-footer-rrss img { width: 50px; }
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 .mis-grt760 { display: none; }
-.mis-lrt760 { max-width: 434px;}
+.mis-lrt760 { max-width: 434px; }
 
 @media (min-width:600px) {
   header h1 { grid-area: 1 / 1 / 3 / 3; }
