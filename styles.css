@@ -207,7 +207,7 @@ header #mis-conexion div span { display: block; }
 
 #mis-articulos article {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 360px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 340px));
   justify-content: center;
   grid-gap: 40px;
   max-width: 1600px;
