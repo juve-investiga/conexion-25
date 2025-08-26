@@ -204,7 +204,11 @@ header #mis-conexion div span { display: block; }
 ////// Artículos de divulgación científica //////////////////////////////////////////////////////
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
-#mis-articulos { padding: 2rem 20px 4rem; box-shadow: inset 0 5px 40px #eae4db; }
+#mis-articulos {
+  padding: 2rem 20px 4rem;
+  box-shadow: inset 0 5px 40px #eae4db;
+  background-image:url(img/texturetastic_gray.webp);
+}
 
 #mis-articulos article {
   display: grid;
