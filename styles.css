@@ -211,7 +211,7 @@ header #mis-conexion div span { display: block; }
   grid-template-columns: repeat(auto-fit, minmax(250px, 340px));
   justify-content: center;
   grid-gap: 40px;
-  max-width: 1600px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -395,7 +395,9 @@ border: 1px solid rgba(0,0,0,0.4);
   /*bottom: 0;*/
   /*left: 0;*/
   /*right: 0;*/
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  place-items: center;
   justify-content: center;
   padding: 10px;
   background: var(--txt);
@@ -443,13 +445,13 @@ border: 1px solid rgba(0,0,0,0.4);
 .mis-folleto-download-button {
   background: var(--hueso);
   color: var(--txt);
-  padding: 6px 17px 6px 17px;
+  padding: 5px 15px 4px 16px;
   cursor: pointer;
   border-radius: 5px;
 }
 
-.mis-folleto-download-button a { display: flex; justify-content: center; }
-.mis-folleto-download-button svg { margin-right: 10px; }
+.mis-folleto-download-button a { display: flex; justify-content: center; text-indent: -9999px; }
+/*.mis-folleto-download-button svg { margin-right: 10px; }*/
 
 canvas {
   max-width: 100%;
